@@ -20,7 +20,7 @@ This evaluation comprehensively tested the model's performance on **300 mixed sa
     *   **Perfect Evidence Faithfulness (100%)**: On "Should Answer" samples, the model strictly adheres to the provided evidence.
 *   **Critical Flaws**: 
     *   **Extremely High Hallucination Rate (26.67%)**: Out of the 80 samples that should have been rejected, the model almost universally chose to "force an answer," leading to a hallucination flag. This is the primary driver for the significant drop in overall scores.
-*   **Clinical Usability Rate**: **62.33%**. A sharp decline from the previous 85%. The loss is primarily due to hallucinations in the "Should Abstain" category.
+*   **Clinical Usability Rate**: **62.33%**. The loss is primarily due to hallucinations in the "Should Abstain" category.
 
 ---
 
@@ -152,7 +152,7 @@ The current model is **not ready** for clinical deployment and requires targeted
     *   **证据忠实度完美 (100%)**: 在“应回答”样本中，模型完全忠实于证据。
 *   **致命缺陷**: 
     *   **幻觉率极高 (26.67%)**: 在 80 个本应拒绝回答的样本中，模型几乎全部选择了“强行回答”，导致被判定为幻觉。这是导致综合得分大幅下降的主要原因。
-*   **临床可用率**: **62.33%**。相比上一版的 85%，大幅下降。主要损失来自于“应拒绝”样本的幻觉。
+*   **临床可用率**: **62.33%**。主要损失来自于“应拒绝”样本的幻觉。
 
 ---
 
