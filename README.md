@@ -2,7 +2,7 @@
 
 | Item | Details |
 | :--- | :--- |
-| **Date** | 2023-10-XX |
+| **Date** | 2026-03-19 |
 | **Evaluation Script** | `calculate_metrics.py` |
 | **Data Source** | `baseline_analysis_report.json` (300 Samples) |
 | **Model Version** | Baseline Model (Updated) |
